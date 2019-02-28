@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}
+  </h1>
+
+
+<router-outlet></router-outlet>
+<ag-grid-angular
+    style="width: 850px; height: 600px;margin-left: 20%"
+    class="ag-theme-balham"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+    [pagination]="true"
+    >
+</ag-grid-angular>
